@@ -1,2 +1,5 @@
-def hello() -> str:
-    return "Hello from stmatch!"
+"""Tools for aligning and PSF-matching HST and JWST images."""
+
+from .stimage import STimage
+
+__all__ = ["STimage"]
